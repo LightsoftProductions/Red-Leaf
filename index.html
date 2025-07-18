@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Red Leaf Executor</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      body {
+        background: linear-gradient(to bottom, #130202, #1a0a0a);
+        color: #f5f5f5;
+      }
+      header {
+        background: linear-gradient(to right, #2a0000, #150000);
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #300000;
+      }
+      header h1 {
+        color: #ff4444;
+        font-size: 28px;
+        text-shadow: 0 0 10px #ff0000;
+      }
+      nav a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #ff8888;
+        font-size: 16px;
+        transition: 0.2s ease;
+      }
+      nav a:hover {
+        color: white;
+      }
+      .hero {
+        text-align: center;
+        padding: 100px 20px 60px;
+      }
+      .hero h2 {
+        font-size: 48px;
+        color: #ff5555;
+        margin-bottom: 20px;
+        text-shadow: 0 0 20px #ff2222;
+      }
+      .hero p {
+        font-size: 18px;
+        color: #cccccc;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .section {
+        padding: 80px 40px;
+        background-color: #1a0c0c;
+        border-top: 1px solid #300000;
+        border-bottom: 1px solid #300000;
+      }
+      .features {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 40px;
+      }
+      .feature-box {
+        background: linear-gradient(to bottom right, #220000, #150000);
+        border: 1px solid #300000;
+        padding: 25px;
+        width: 280px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.05);
+      }
+      .feature-box h3 {
+        color: #ff6666;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+      .feature-box p {
+        color: #bbbbbb;
+        font-size: 14px;
+      }
+      .faq {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .faq-item {
+        margin-bottom: 30px;
+      }
+      .faq-item h4 {
+        color: #ff6666;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .faq-item p {
+        color: #bbbbbb;
+        font-size: 14px;
+      }
+      .download {
+        text-align: center;
+        padding: 60px 20px;
+        background: #130202;
+      }
+      .download a {
+        padding: 14px 28px;
+        background: linear-gradient(to right, #3f0000, #2a0000);
+        color: #ffaaaa;
+        border-radius: 8px;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid #550000;
+        transition: 0.2s ease;
+      }
+      .download a:hover {
+        background: linear-gradient(to right, #600000, #3a0000);
+        color: white;
+      }
+      footer {
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        background-color: #100000;
+        color: #888;
+        border-top: 1px solid #2a0000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Red Leaf</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+        <a href="#download">Download</a>
+      </nav>
+    </header>
+    <section class="hero" id="home">
+      <h2>Welcome to Red Leaf</h2>
+      <p>A executor built from the ground up by Softlight Productions</p>
+    </section>
+    <section class="section" id="features">
+      <h2 style="text-align:center; font-size: 32px; color: #ff4444;">Features</h2>
+      <div class="features">
+        <div class="feature-box">
+          <h3>Fast Injection</h3>
+          <p>Uses a API, TargzAPI, in which promises fast injection speeds</p>
+        </div>
+        <div class="feature-box">
+          <h3>Available scripts</h3>
+          <p>Use multiple scripts without having to run into a script error</p>
+        </div>
+        <div class="feature-box">
+          <h3>UI</h3>
+          <p>Despite the poor UI, this is just our only first version, we plan on making the UI as good than any other you've seen</p>
+        </div>
+        <div class="feature-box">
+          <h3>Secure Execution</h3>
+          <p>We promise you that our injection is <span style="color: rgb(255, 100, 100">(not)</span> undetected</p>
+        </div>
+        <div class="feature-box">
+          <h3>Updates</h3>
+          <p>Although Red Leaf might not be focused on too much, we promise that we will update Red Leaf as fast as possible <span style="color: rgb(100, 100, 255)">(just kidding!)</span></p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="faq">
+      <h2 style="text-align:center; font-size: 32px; color: #ff4444;">FAQ</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h4>Is Red Leaf free?</h4>
+          <p>maybe</p>
+        </div>
+        <div class="faq-item">
+          <h4>Will I get banned?</h4>
+          <p>read features</p>
+        </div>
+        <div class="faq-item">
+          <h4>Can I run scripts from Pastebin?</h4>
+          <p>no because pastebin is shit (just kidding! you can :D)</p>
+        </div>
+        <div class="faq-item">
+          <h4>How often do you update?</h4>
+          <p>read features</p>
+        </div>
+      </div>
+    </section>
+    <section class="download" id="download">
+      <h2 style="color: #ff4444; font-size: 32px; margin-bottom: 20px;">Download Now</h2>
+      <a href="https://gofile.io/d/oMYUs6">Download Red Leaf Executor</a>
+    </section>
+
+    <footer>
+      &copy; 2025 Softlight Productions. All rights arent reserved.
+    </footer>
+  </body>
+</html>
